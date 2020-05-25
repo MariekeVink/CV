@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+</head>
+
+<body>
+  <strong>
+    <h2>My contact details</h2>
+  </strong>
+  <hr>
+  <p>
+    <br>
+    Find me on <a href="https://nl.linkedin.com/in/marieke-vink-1550635">LinkedIn</a></p>
+  <P>
+    Write me an <a href="mailto:marieke_vink@yahoo.com"> email </a><br></P>
+<hr>
+<p>Or leave me a message here:</p>
+<!--enctype laat form weten hoe text gecodeerd is-->
+<form action="mailto:marieke_vink@yahoo.com" method="post" enctype="text/plain">
+  <label>Your Name:</label><br>
+<!-- er bestaan veel verschillende input types: Zie MDN, o.a. password, color, etc -->
+  <input type="text" name="Naam" value=""> <br>
+<label>Your e-mail:</label><br>
+<input type="email" name="Emailadres" value=""><br>
+<label>Your message:</label><br>
+  <textarea name="Bericht" rows="8" cols="80"></textarea><br>
+  <input type="submit" name="Verzend"><br>
+
+</form>
+<hr>
+
+
+</body>
+
+</html>
