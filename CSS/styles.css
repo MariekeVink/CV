@@ -1,0 +1,27 @@
+/********* TAG selectors **********/
+body {background-color: #3f3f44;
+font-family: "Gotham", sans-serif;
+font-style: normal;
+color: #f7f7f7;}
+
+hr {
+width: 8%;
+border-style: none;
+border-color: #cceabb;
+border-top-style: dotted;
+border-width: 7px;
+}
+
+h1 {color: #f7f7f7;}
+h2 {color: #fdcb9e;}
+h3 {color: #fdcb9e;}
+h4 {color: #fdcb9e;}
+
+/********* Class selectors **********/
+.link {
+  color: #cceabb;
+}
+
+.link:hover {
+  color: #fdcb9e;
+}
